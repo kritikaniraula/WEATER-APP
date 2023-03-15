@@ -1,0 +1,148 @@
+.body{
+  background-color:black;
+  color:white;
+}
+
+.cloud i{
+  color:#87CEEB;
+  align-items: center;
+  text-align: center;
+  margin-top:300px;
+  margin-bottom:30px;
+}
+
+.button > a{
+  text-decoration: none;
+  
+}
+
+.body #btn{
+  margin-top:20px;
+  background-color: black;
+  color:aliceblue;
+  border-color: #87CEEB;
+  border-style: solid;
+  border-radius: 5px;
+ font-size: 16px;
+ font-family: sans-serif;
+ letter-spacing: 1px;
+ padding:8px;
+ border-width: 3px;
+}
+
+#btn:hover{
+  color:aliceblue;
+  background-color: #87CEEB;
+  transition: all 0.5s;
+  border-color: aliceblue;
+  border-style: solid;
+}
+
+.main-page{
+  background-color:#222;
+  color:#87CEEB;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 120%;
+  
+}
+
+.landscape img{
+  height: 100%;
+  width:100%;
+}
+
+.landscape{
+  position:absolute;
+}
+
+.search-bar {
+  font-size: 17px;
+  font-weight: 500;
+  padding-left: 15px;
+  padding-right: 30px;
+  border-radius: 25px;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  background-color:#222;
+  height: 50px;
+  max-width:332px;
+  width:100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: all 0.3s ease 0s; 
+  margin-bottom:20px;
+}   
+
+.search-bar:hover, .search-bar:focus {
+  outline:aliceblue;
+  border-color: aliceblue;
+}
+   
+.main-page button{
+  position:absolute;
+  z-index: 1;
+  padding-top: 15px;
+  width: 20px;
+  height: 20px;
+  border:none;
+  align-items: baseline;
+  background-color: transparent;
+}
+    
+.search button i{
+  color: aliceblue;
+  margin-left:270px;
+  position: absolute;
+}
+
+input::placeholder{
+  color:aliceblue;
+}
+
+
+.main-page .card{
+  background-color:#000000d0 ;
+  padding:32px;
+  border-radius: 30px;
+  width:100%;
+  max-width:420px;
+  margin:16px;
+  color:white;
+}
+
+.icon {
+height:50px;
+width:50px;
+}
+
+body{
+  height:100vh;
+}
+
+.main-page .description{
+  text-transform: capitalize;
+  padding:12px;
+}
+
+h1 .temp{
+  margin-bottom:0.4em;
+  margin:0px;
+}
+
+.weather.loading{
+  visibility:hidden;
+  max-height: 20px;
+  position:relative;
+}
+.weather.loading::after{
+  visibility: visible;
+  content:"loading....";
+  color:white;
+  position:absolute;
+  top:0;
+  left:20px;
+}
+.humidity{
+  margin-bottom:15px;
+}
